@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Stepper Navigation Styles */
+.step {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    color: #9ca3af; /* Gray text for inactive steps */
+  }
+  .step.active {
+    background-color: #4299e1; /* Light blue background for active step */
+    color: white;
+    border-radius: 9999px; /* Fully rounded */
+  }
+  
